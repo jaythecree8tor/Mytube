@@ -285,7 +285,7 @@ header {
     height: 100vh;
     top: 0;
     padding-left: 2%;
-    padding-top: 120px;
+    padding-top: 145px;
     overflow: hidden;
 }
 
@@ -298,7 +298,7 @@ header {
 .short a {
     transition: 0.5s;
     text-decoration: none;
-    margin-top: 0px;
+    margin-top: -20px;
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -353,6 +353,7 @@ header {
 
 @media (max-width: 936px) {
     .short a {
+        margin-top: 20px;
         margin-bottom: 19px;
     }
 

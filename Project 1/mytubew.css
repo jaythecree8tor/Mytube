@@ -1,5 +1,5 @@
 body {
-    background-color: #181818;
+    background-color: rgb(249, 249, 249);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -14,12 +14,12 @@ header {
     width: 100%;
     position: fixed;
     transition: 0.5s;
-    border: 1px solid rgb(49, 49, 49);
+    border: 1px solid rgb(218, 218, 218);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 16px 0%;
-    background-color: #212121;
+    background-color: #ffffff;
     overflow: hidden;
     z-index: 10;
     padding-bottom: 0;
@@ -60,8 +60,8 @@ header {
 }
 
 .mid .search {
-    background-color: rgb(18, 18, 18);
-    border: 1px solid rgb(49, 49, 49);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
     margin-right: 0px;
     height: 40px;
     padding: 0px 8px;
@@ -84,7 +84,7 @@ header {
 .mid button {
     transition: 0.5s;
     margin: 0;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(248, 248, 248);
     border: none;
     border-radius: 0;
     width: 64px;
@@ -101,7 +101,7 @@ header {
 
 .mid button:last-child {
     margin-left: 8%;
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(248, 248, 248);
     border-radius: 100%;
     padding: 8px;
     height: 40px;
@@ -131,17 +131,18 @@ header {
 
 .htwo {
 
-    border: 1px solid rgb(49, 49, 49);
+    border: 1px solid rgb(218, 218, 218);
     border-bottom: none;
     border-left: none;
     padding: 11px 0%;
-    background-color: #212121;
+    background-color: #ffffff;
     overflow: hidden;
 }
 
 .butts {
     margin-top: 10px;
     justify-content: flex-start;
+    
 }
 
 .butts button {
@@ -149,15 +150,15 @@ header {
     cursor: pointer;
     transition: 0.6s;
     margin-left: 20px;
-    border: 1.4px solid rgb(75, 75, 75);
-    background-color: rgb(55, 55, 55);
+    border: 1.4px solid rgb(217, 217, 217);
+    background-color: rgb(242, 242, 242);
     padding: 6px 20px;
     border-radius: 30px;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.2px;
     text-transform: capitalize;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .butts button:hover {
@@ -181,8 +182,7 @@ header {
         background: none
     }
     .mid .search {
-
-        border: 1px solid rgb(49, 49, 49);
+        border: 1px solid rgb(204, 204, 204);
         margin-right: 0px;
         height: 40px;
         padding: 0px 8px;
@@ -280,7 +280,7 @@ header {
 .sidebar {
     transition: 0.7s;
     position: fixed;
-    background: rgb(33, 33, 33);
+    background: rgb(255, 255, 255);
     width: 15%;
     height: 100vh;
     top: 0;
@@ -304,7 +304,7 @@ header {
     margin-bottom: 10px;
     width: fit-content;
     flex-wrap: wrap;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 500;
     font-size: 14px;
 }
@@ -319,14 +319,14 @@ header {
     float: left;
     border: 0;
     height: 0.5px;
-    background: rgb(56, 56, 56);
+    background: rgb(124, 124, 124);
     width: 85%;
 }
 
 .sublist h3 {
     font-size: 17px;
     margin: 20px 0;
-    color: rgb(170, 170, 170);
+    color: rgb(96, 96, 96);
 }
 
 .sublist a {
@@ -337,7 +337,7 @@ header {
     margin-bottom: 20px;
     width: fit-content;
     flex-wrap: wrap;
-    color: white;
+    color: rgb(0, 0, 0);
     line-height: 20px;
 }
 
@@ -363,7 +363,7 @@ header {
 
     .sidebar {
         display: inline-block;
-        background: rgb(33, 33, 33);
+        background: rgb(255, 255, 255);
         width: auto;
         height: 130vh;
         top: 0;
@@ -401,7 +401,7 @@ header {
 /*---------main-------*/
 .contain{
     transition: 0.5s;
-    background: #181818;
+    background: rgb(249, 249, 249);
     margin-left: 13%;
     padding-left: 5%;
     padding-right: 5%;
@@ -434,11 +434,11 @@ header {
     border-radius: 50%;
 }
 .vidif{
-    color: #aaaaaa;
+    color: #929292;
     font-size: 14px;
 }
 .vidif a{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: 600;
     display: block;
     margin-bottom: 5px;
@@ -451,4 +451,9 @@ header {
     line-height: 18px;
     margin-bottom: -10px;
     letter-spacing: normal;
+}
+.timest{
+    color: white;
+    position: absolute;
+    background-color: black;
 }

@@ -74,7 +74,7 @@ header {
     border: 0;
     outline: 0;
     background: transparent;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .mid .search input:hover {
@@ -92,7 +92,7 @@ header {
 }
 
 .mid button:hover {
-    background-color: rgb(80, 80, 80)
+    background-color: rgb(212, 212, 212)
 }
 
 .mid button:active {
@@ -162,15 +162,15 @@ header {
 }
 
 .butts button:hover {
-    background-color: #FF0000;
-    border: 1.4px solid #7f0000;
-    color: white;
+    background-color: #f2f2f2;
+    border: 1.4px solid #525252;
+    color: rgb(0, 0, 0);
 }
 
 .butts button.active {
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 @media (max-width: 960px) {
@@ -310,7 +310,7 @@ header {
 }
 
 .short a:hover {
-    background-color: rgb(86, 86, 86);
+    background-color: rgb(239, 239, 239);
     width: 100%;
 }
 
@@ -451,9 +451,4 @@ header {
     line-height: 18px;
     margin-bottom: -10px;
     letter-spacing: normal;
-}
-.timest{
-    color: white;
-    position: absolute;
-    background-color: black;
 }
